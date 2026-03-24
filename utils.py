@@ -15,7 +15,6 @@ if uploaded_file is not None:
     file_bytes = np.asarray(bytearray(uploaded_file.read()), dtype=np.uint8)
     image = cv2.imdecode(file_bytes, cv2.IMREAD_COLOR)
 
-    # 🔥 Convert BGR → RGB (IMPORTANT for correct colors)
     image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 
     alpha = st.slider("Contrast (alpha)", 0.5, 3.0, 1.5)

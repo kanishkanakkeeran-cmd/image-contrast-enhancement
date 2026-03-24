@@ -43,13 +43,13 @@ Where:
 Follow these steps to execute the project:
 
 1. Install required libraries:
-```bash
-pip install -r requirements.txt
+
+```pip install -r requirements.txt```
 
 2. Run the application:
-streamlit run web_app.py
 
-## 🏆 Conclusion
+```streamlit run web_app.py```
+
+🏆 Conclusion
 
 This project successfully demonstrates how linear transformation can enhance image contrast and brightness. It improves image visibility and is useful in computer vision and image processing applications.
-This project successfully demonstrates how linear transformation can enhance image contrast and brightness. It improves image visibility and is useful in applications like computer vision, medical imaging, and digital image processing.

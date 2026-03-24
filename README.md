@@ -42,3 +42,21 @@ Where:
 ```bash
 pip install -r requirements.txt
 streamlit run web_app.py
+## ▶️ How to Run
+
+Follow these steps to execute the project:
+
+1. Install required libraries:
+```bash
+pip install -r requirements.txt
+streamlit run web_app.py
+
+
+📊 Output
+Displays the original uploaded image
+Displays the enhanced image with improved contrast and brightness
+Allows real-time adjustment using sliders
+
+🏆 Conclusion
+
+This project successfully demonstrates how linear transformation can enhance image contrast and brightness. It improves image visibility and is useful in applications like computer vision, medical imaging, and digital image processing.
